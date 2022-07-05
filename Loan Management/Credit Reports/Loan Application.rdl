@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>9c0987c8-7aef-4b6b-a8b8-be74fc01b46a</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="Application_No">
+          <DataField>Application_No</DataField>
+        </Field>
+        <Field Name="Application_Date">
+          <DataField>Application_Date</DataField>
+        </Field>
+        <Field Name="Member_No_">
+          <DataField>Member_No_</DataField>
+        </Field>
+        <Field Name="Member_Name">
+          <DataField>Member_Name</DataField>
+        </Field>
+        <Field Name="Installments">
+          <DataField>Installments</DataField>
+        </Field>
+        <Field Name="Product_Code">
+          <DataField>Product_Code</DataField>
+        </Field>
+        <Field Name="Product_Description">
+          <DataField>Product_Description</DataField>
+        </Field>
+        <Field Name="Interest_Rate">
+          <DataField>Interest_Rate</DataField>
+        </Field>
+        <Field Name="Interest_RateFormat">
+          <DataField>Interest_RateFormat</DataField>
+        </Field>
+        <Field Name="Applied_Amount">
+          <DataField>Applied_Amount</DataField>
+        </Field>
+        <Field Name="Applied_AmountFormat">
+          <DataField>Applied_AmountFormat</DataField>
+        </Field>
+        <Field Name="Approved_Amount">
+          <DataField>Approved_Amount</DataField>
+        </Field>
+        <Field Name="Approved_AmountFormat">
+          <DataField>Approved_AmountFormat</DataField>
+        </Field>
+        <Field Name="CompanyLogo">
+          <DataField>CompanyLogo</DataField>
+        </Field>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+        </Field>
+        <Field Name="CompanyAddress1">
+          <DataField>CompanyAddress1</DataField>
+        </Field>
+        <Field Name="CompanyAddress2">
+          <DataField>CompanyAddress2</DataField>
+        </Field>
+        <Field Name="CompanyPhone">
+          <DataField>CompanyPhone</DataField>
+        </Field>
+        <Field Name="CompanyEmail">
+          <DataField>CompanyEmail</DataField>
+        </Field>
+        <Field Name="SectorName">
+          <DataField>SectorName</DataField>
+        </Field>
+        <Field Name="SubSectorName">
+          <DataField>SubSectorName</DataField>
+        </Field>
+        <Field Name="SubSubSectorname">
+          <DataField>SubSubSectorname</DataField>
+        </Field>
+        <Field Name="AmountInWords">
+          <DataField>AmountInWords</DataField>
+        </Field>
+        <Field Name="EmployerName">
+          <DataField>EmployerName</DataField>
+        </Field>
+        <Field Name="New_Monthly_Installment">
+          <DataField>New_Monthly_Installment</DataField>
+        </Field>
+        <Field Name="New_Monthly_InstallmentFormat">
+          <DataField>New_Monthly_InstallmentFormat</DataField>
+        </Field>
+        <Field Name="BankCode">
+          <DataField>BankCode</DataField>
+        </Field>
+        <Field Name="BankName">
+          <DataField>BankName</DataField>
+        </Field>
+        <Field Name="AccountName">
+          <DataField>AccountName</DataField>
+        </Field>
+        <Field Name="AccountNo">
+          <DataField>AccountNo</DataField>
+        </Field>
+        <Field Name="GrossSalary">
+          <DataField>GrossSalary</DataField>
+        </Field>
+        <Field Name="GrossSalaryFormat">
+          <DataField>GrossSalaryFormat</DataField>
+        </Field>
+        <Field Name="PhoneNo">
+          <DataField>PhoneNo</DataField>
+        </Field>
+        <Field Name="PayrollNo">
+          <DataField>PayrollNo</DataField>
+        </Field>
+        <Field Name="Station">
+          <DataField>Station</DataField>
+        </Field>
+        <Field Name="Age">
+          <DataField>Age</DataField>
+        </Field>
+        <Field Name="EMail">
+          <DataField>EMail</DataField>
+        </Field>
+        <Field Name="MemberSignature">
+          <DataField>MemberSignature</DataField>
+        </Field>
+        <Field Name="Member_No">
+          <DataField>Member_No</DataField>
+        </Field>
+        <Field Name="GMember_Name">
+          <DataField>GMember_Name</DataField>
+        </Field>
+        <Field Name="Guaranteed_Amount">
+          <DataField>Guaranteed_Amount</DataField>
+        </Field>
+        <Field Name="Guaranteed_AmountFormat">
+          <DataField>Guaranteed_AmountFormat</DataField>
+        </Field>
+        <Field Name="GuarantorSignature">
+          <DataField>GuarantorSignature</DataField>
+        </Field>
+        <Field Name="GuarantorEmail">
+          <DataField>GuarantorEmail</DataField>
+        </Field>
+        <Field Name="GuarantorNationalID">
+          <DataField>GuarantorNationalID</DataField>
+        </Field>
+        <Field Name="GuarantorPhoneNo">
+          <DataField>GuarantorPhoneNo</DataField>
+        </Field>
+        <Field Name="Recovery_Code">
+          <DataField>Recovery_Code</DataField>
+        </Field>
+        <Field Name="Recovery_Description">
+          <DataField>Recovery_Description</DataField>
+        </Field>
+        <Field Name="Current_Balance">
+          <DataField>Current_Balance</DataField>
+        </Field>
+        <Field Name="Current_BalanceFormat">
+          <DataField>Current_BalanceFormat</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="Textbox135">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="I ............... " &amp; First(Fields!Member_Name.Value, "DataSet_Result") " of ID No : ............ hereby declare that the particulars given in this application form are true to the besrt of my knowledge. In connection with this application and/or maintaining a credit facility with Ushuru Sacco Ltd, I authorize Ushuru Sacco Ltd to carry out the credit checks with or obtain my credit information from a Credit Reference Bureau. In the event of the account going into default, I consent to my name, transaction and default details being forwarded to CRB for listing. I acknowledge that this information may be used by Banking Institutions and other credit grantors in assessing applications for credit by me, associated companies, and supplementary account holders and for occasional debt tracing and fraud prevention purposes"</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox135</rd:DefaultName>
+            <Top>21.61087cm</Top>
+            <Left>0cm</Left>
+            <Height>5.16142cm</Height>
+            <Width>20.39728cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox143">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="This member qualifies for  Kshs." &amp; First(Fields!Approved_Amount.Value, "DataSet_Result") &amp; " recoverable in months at Kshs: per month"</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox143</rd:DefaultName>
+            <Top>35.04381cm</Top>
+            <Left>0.00001cm</Left>
+            <Height>2.02466cm</Height>
+            <Width>20.39728cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>46.32212cm</Height>
+        <Style />
+      </Body>
+      <Width>22.29403cm</Width>
+      <Page>
+        <PageHeader>
+          <Height>2.54cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <LeftMargin>0.5cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0.5cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+</Report>

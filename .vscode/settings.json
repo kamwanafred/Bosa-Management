@@ -1,0 +1,7 @@
+{
+    "al-xml-doc.AskEnableCheckDocumentationForWorkspace": false,
+    "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [
+    
+        "Public"
+    ]
+}

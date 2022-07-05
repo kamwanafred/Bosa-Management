@@ -1,0 +1,25 @@
+{
+  "id": "821bae46-940a-4c8a-a987-96dcc8babd71",
+  "name": "Bosa Management",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "runtime": "7.0",
+  "target": "OnPrem",
+  "idRanges": [
+    {
+      "from": 90000,
+      "to": 99999
+    }
+  ]
+}
